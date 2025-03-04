@@ -22,11 +22,11 @@
 DROP TABLE IF EXISTS `menu`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `menu` (
+CREATE TABLE `edada` (
   `ID` int NOT NULL AUTO_INCREMENT,
-  `nazvanie` varchar(80) DEFAULT NULL,
+  `name` varchar(80) DEFAULT NULL,
   `sostav` varchar(80) DEFAULT NULL,
-  `price` varchar(80) DEFAULT NULL,
+  `dorogo` varchar(80) DEFAULT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
